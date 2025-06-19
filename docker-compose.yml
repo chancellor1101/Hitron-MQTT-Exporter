@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  hitron-scraper:
+    build: .
+    container_name: hitron-scraper
+    restart: unless-stopped
+    environment:
+      - TZ=America/Chicago
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - mqtt_net
+
+networks:
+  mqtt_net:
+    external: true
