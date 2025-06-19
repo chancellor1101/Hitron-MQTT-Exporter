@@ -108,9 +108,11 @@ if __name__ == "__main__":
         "modem/dsinfo": "dsinfo.asp",
         "modem/usinfo": "usinfo.asp",
         "modem/system_model": "system_model.asp",
-        "modem/system_info": "system_info.asp",
-        "modem/dsmodinfo": "dsmodinfo.asp",
-        "modem/usofdminfo": "usofdminfo.asp"
+        "modem/usofdminfo": "usofdminfo.asp",
+        "modem/dsofdminfo": "dsofmodinfo.asp",
+        "modem/statuslog": "status_log.asp",
+        "modem/cminit": "getCMInit.asp",
+        "modem/link_status": "getLinkStatus.asp",
     }
 
     for topic, endpoint in pages.items():
