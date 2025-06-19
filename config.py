@@ -3,3 +3,7 @@ MQTT_PORT = 1883
 MQTT_USER = "modem-exporter"
 MQTT_PASS = "modem-exporter"
 MODEM_URL = "http://192.168.100.1"
+INFLUX_URL = "http://10.10.0.185:8086"
+INFLUX_TOKEN = "supersecrettoken"
+INFLUX_ORG = "home"
+INFLUX_BUCKET = "hitron"
